@@ -1,2 +1,2 @@
 #!/bin/bash
-s -1 | cat -n | cat -T | grep [1,3,5,7,9]^I | cut -b 9-
+ls -1 | cat -n | cat -T | grep [1,3,5,7,9]^I | cut -b 9-
